@@ -4,6 +4,11 @@
   box-sizing: border-box;
   user-select: none;
 }
+p
+{
+  position:relative;
+  text-align: center;
+}
 .bg-img{
   background: url('ima.jpg');
   height: 100vh;
@@ -11,6 +16,7 @@
   background-position: center;
 }
 .bg-img:after{
+
   position: absolute;
   content: '';
   top: 0;
